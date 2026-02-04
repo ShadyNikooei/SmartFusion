@@ -6,7 +6,6 @@ concentration and environmental risk assessments.\
 The system integrates hardware edge nodes with a Python-based
 intelligent gateway and cloud-hosted databases.
 
-------------------------------------------------------------------------
 
 ## Features
 
@@ -24,7 +23,6 @@ intelligent gateway and cloud-hosted databases.
     -   MongoDB Atlas
     -   Adafruit IO
 
-------------------------------------------------------------------------
 
 ## Hardware Components
 
@@ -35,8 +33,6 @@ The system utilizes the following hardware at the Edge layer:
 -   **DHT11 Sensor** -- Temperature and Humidity monitoring\
 -   **Level Shifters / Potentiometers** -- Sensor calibration and
     voltage matching
-
-------------------------------------------------------------------------
 
 ## Software Stack and Platforms
 
@@ -58,8 +54,6 @@ Adafruit_IO
 
 **Arduino** - ESP8266WiFi - PubSubClient - DHT Sensor Library
 
-------------------------------------------------------------------------
-
 ## Communication Protocols
 
 ### 1. HTTP Protocol (Legacy)
@@ -76,7 +70,6 @@ Adafruit_IO
 -   **Workflow:** Decouples sensor nodes from the gateway, enabling
     lower latency and higher reliability
 
-------------------------------------------------------------------------
 
 ## Edge Node Implementation
 
@@ -87,7 +80,6 @@ The NodeMCU firmware (`AQI.ino`) is responsible for:
 -   Packaging sensor data into JSON format
 -   Publishing data to the `smart_fusion/sensors` topic every 5 seconds
 
-------------------------------------------------------------------------
 
 ## Performance Metrics
 
@@ -97,7 +89,6 @@ The NodeMCU firmware (`AQI.ino`) is responsible for:
   RMSE     \< 0.05       Root Mean Square Error
   VUR      \~ 85%        Variance Reduction
 
-------------------------------------------------------------------------
 
 ## Installation and Setup
 
@@ -129,7 +120,6 @@ python main_gateway.py
 python output_analysis.py
 ```
 
-------------------------------------------------------------------------
 
 ## Author
 
