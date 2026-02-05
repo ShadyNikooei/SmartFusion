@@ -1,0 +1,14 @@
+[
+    {
+        "timestamp": 1769967189.5807,
+        "fused_data": {
+            "temp": 25.92,
+            "ppm": 0.5,
+            "danger_prob": 0.012
+        },
+        "raw_input": {
+            "temp": 25.9,
+            "hum": 35.0,
+            "co_raw": 151
+        },
+        "_id": 
