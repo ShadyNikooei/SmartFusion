@@ -83,11 +83,12 @@ The NodeMCU firmware (`AQI.ino`) is responsible for:
 
 ## Performance Metrics
 
-  Metric   Value (Avg)   Description
-  -------- ------------- ------------------------
-  SNR      \> 25 dB      Signal-to-Noise Ratio
-  RMSE     \< 0.05       Root Mean Square Error
-  VUR      \~ 85%        Variance Reduction
+| Metric | Value (Avg) | Description |
+|------|-------------|-------------|
+| SNR  | > 25 dB     | Signal-to-Noise Ratio |
+| RMSE | < 0.05      | Root Mean Square Error |
+| VUR  | ~ 85%       | Variance Reduction |
+
 
 
 ## Installation and Setup
